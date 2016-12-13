@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js""></script>
+	<script>
+		$(document).ready(function(){
+
+		  $('#clonar').click(function(){
+		     $('#repeat').clone().appendTo('body');
+		     return false;
+		  });
+
+		});
+	</script>
+</head>
+<body>
+
+	<div id="repeat">
+		<form action="">
+			<input type="text">
+			<input type="text">
+		</form>
+	</div>
+	<input type="button" id="clonar" value="cloname">
+</body>
+</html>
