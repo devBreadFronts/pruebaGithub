@@ -8,8 +8,11 @@ body{
 
 p{
 	padding: 2em;
-	color:#ccc;
+	color:steelblue;
 	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: 300;
 }
 
 
