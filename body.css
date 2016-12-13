@@ -1,3 +1,9 @@
 body{
 	background-color: #fff;
 }
+
+p{
+	padding: 2em;
+	color:#ccc;
+	text-align: center;
+}
