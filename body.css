@@ -24,3 +24,7 @@ article{
 	float: left;
 	width: 50%;
 }
+
+.yellow{
+	background-color: yellow !important;padding: 3em 0;
+}
