@@ -28,3 +28,8 @@ article{
 .yellow{
 	background-color: yellow !important;padding: 3em 0;
 }
+
+.yellow:hover{
+	transition: .3s all;
+	background-color: red;
+}
